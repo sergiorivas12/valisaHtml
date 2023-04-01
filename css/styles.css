@@ -108,7 +108,7 @@ nav a img {
     margin-top: 5px;
 }
 
-.seccionIndex *{
+.seccionIndex * {
     margin-bottom: 5px;
 }
 
@@ -136,45 +136,103 @@ nav a img {
     border-radius: 5px;
 }
 
-.colNovedades:hover{
-    display:inline-block;
-    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+.colNovedades:hover {
+    display: inline-block;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+    /* IE6-9 */
 }
 
-.colNovedades img{
-    position:relative;
-    z-index:-1;
+.colNovedades img {
+    position: relative;
+    z-index: -1;
 }
 
-.location{
+.location {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.location button{
+.location button {
     margin-top: 3%;
     font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.newsletter{
+.newsletter {
     text-align: center;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
     background: #000;
-    color:white;
+    color: white;
     padding-top: 5%;
-    padding-bottom: 5%;    
+    padding-bottom: 5%;
 }
 
-.newsletter button{
+.newsletter button {
     margin-top: 3%;
     font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+footer .footerLista {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerLista div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLista ul{
+    list-style: none;
+}
+
+.footerLista div ul li{
+    font-size: 80%;
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.footerLista div ul li i.wsp{
+    color:green;
+    padding-right: 10px;
+}
+
+.footerLista div ul li i.tele{
+    color:blue;
+    padding-right: 10px;
+}
+
+.footerLista div:first-child ul li:nth-child(even):not(:first-child){
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 10%;
+}
+
+.footerLista div:first-child ul li:nth-child(odd):not(:first-child){
+    color:gray;
+}
+
+.footerLista div:not(:first-child) ul li:not(:first-child){
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 9%;
+    color:gray;
+}
+
+.footerLista div:last-child ul li:not(:first-child){
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 3%;
+    color:gray;
 }
 
 
